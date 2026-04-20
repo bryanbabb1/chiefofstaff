@@ -77,21 +77,24 @@ If nothing is actionable this hour: send nothing.
 If there is activity, post to #babbland (C0AU8R58ZRS):
 
 ```
-<@U03ENUZNBAL>
+<!here>
 
-:clock[N]: *[TIME] CHECK*
+:clock[N]: [TIME] CHECK
 
-*DONE*
-- [What you did] + [link or paste-ready text]
+:red_circle: NEEDS YOU
+- *[Item label]* — [specific reason it needs him]
 
-*NEEDS YOU*
-- [Item] — [specific reason it needs him]
+:clipboard: REVIEW NEEDED
+- *[Document title]* — [Drive link] — [one sentence: what decision or feedback is needed]
 
-:clipboard: *REVIEW NEEDED*
-- [Document title] — [Drive link] — [one sentence: what decision or feedback is needed]
+:white_circle: FYI
+- [item]
 
-*COMING UP*
+:calendar: COMING UP
 - [Meeting in next 2 hrs needing attention]
+
+:white_check_mark: DONE
+- [What you did] + [link or paste-ready text]
 ```
 
 Rules:
@@ -99,6 +102,9 @@ Rules:
 - The REVIEW NEEDED section appears only when a document was created this run.
 - No filler. No generic summaries. Every bullet must be specific and actionable.
 - Never send an email. Never post to any other Slack channel. Draft and surface only.
+- Start every message with `<!here>` — this triggers a real Slack notification.
+- Do NOT use `*text*` for section headers — it renders as italic not bold. Use plain ALL CAPS with an emoji anchor instead.
+- Use `*text*` only for item labels within bullets — italic emphasis is fine there.
 
 ---
 
@@ -106,8 +112,8 @@ Rules:
 
 To avoid Slack block validation errors:
 - Do not use `#channelname` in message text — write the display name without `#`
-- Avoid emoji codes that are not standard Slack emoji (test with simple codes like `:clock1:`)
-- Use `*bold*` for section headers
+- Do NOT wrap section headers in `*asterisks*` — renders as italic, not bold
+- Use ALL CAPS + leading emoji for section headers (e.g. `:red_circle: NEEDS YOU`)
+- Use `*item label*` inside bullet points for italic emphasis on the label
 - Use `- ` for bullet points
-- The `---` separator is fine
 - Keep each Slack message under 3000 characters; split into follow-up messages if needed
