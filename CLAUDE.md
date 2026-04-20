@@ -79,18 +79,18 @@ If there is activity, post to #babbland (C0AU8R58ZRS):
 ```
 <@U03ENUZNBAL>
 
-:clock[N]: [TIME] CHECK
+:clock[N]: *[TIME] CHECK*
 
-DONE
+*DONE*
 - [What you did] + [link or paste-ready text]
 
-NEEDS YOU
+*NEEDS YOU*
 - [Item] — [specific reason it needs him]
 
-:clipboard: REVIEW NEEDED
+:clipboard: *REVIEW NEEDED*
 - [Document title] — [Drive link] — [one sentence: what decision or feedback is needed]
 
-COMING UP
+*COMING UP*
 - [Meeting in next 2 hrs needing attention]
 ```
 
