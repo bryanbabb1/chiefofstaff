@@ -70,8 +70,6 @@ Before drafting any reply or creating any file:
 
 ## OUTPUT — POST TO #babbland
 
-**Every message must start with:** `<@U03ENUZNBAL>`
-
 If nothing is actionable this hour: send nothing.
 
 If there is activity, post to #babbland (C0AU8R58ZRS):
@@ -85,7 +83,7 @@ If there is activity, post to #babbland (C0AU8R58ZRS):
 - *[Item label]* — [specific reason it needs him]
 
 :clipboard: REVIEW NEEDED
-- *[Document title]* — [Drive link] — [one sentence: what decision or feedback is needed]
+- *[Type: Email draft / Slack draft / Doc / Deck / Sheet]* — [title or subject] — [link] — [one sentence: what to review or approve]
 
 :white_circle: FYI
 - [item]
@@ -99,10 +97,9 @@ If there is activity, post to #babbland (C0AU8R58ZRS):
 
 Rules:
 - Omit any section that is empty.
-- The REVIEW NEEDED section appears only when a document was created this run.
+- REVIEW NEEDED appears whenever anything was created this run that Bryan must review before it goes anywhere: email drafts, Slack message drafts, documents, decks, sheets, meeting prep briefs. Every created item gets its own bullet with type, title, link, and a one-sentence ask.
 - No filler. No generic summaries. Every bullet must be specific and actionable.
 - Never send an email. Never post to any other Slack channel. Draft and surface only.
-- Start every message with `<!here>` — this triggers a real Slack notification.
 - Do NOT use `*text*` for section headers — it renders as italic not bold. Use plain ALL CAPS with an emoji anchor instead.
 - Use `*text*` only for item labels within bullets — italic emphasis is fine there.
 
