@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "pgrep -f 'scheduler.py' > /dev/null || nohup python3 /home/user/chiefofstaff/scheduler.py >> /home/user/chiefofstaff/cos.log 2>&1 &"
+          }
+        ]
+      }
+    ]
+  }
+}
